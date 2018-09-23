@@ -199,12 +199,12 @@ function draw() {
 
 
 
-    if (miCancioncita.currentTime() > 10 && miCancioncita.currentTime() < 12) {
+    if (miCancioncita.currentTime() > 10 && miCancioncita.currentTime() < 13) {
         image(plantas, 50, 0, width - 120, height);
     }
 
 
-    if (miCancioncita.currentTime() > 12 && miCancioncita.currentTime() < 24) {
+    if (miCancioncita.currentTime() > 13 && miCancioncita.currentTime() < 24) {
         image(plantas, 50, 0, width - 120, height);
         filter(POSTERIZE, filtro1);
     }
@@ -232,7 +232,7 @@ function draw() {
 
     if (miCancioncita.currentTime() > 31 && miCancioncita.currentTime() < 35) {
         image(puente2, 50, 0, width - 120, height);
-        //filter(POSTERIZE, filtro6);
+        filter(POSTERIZE, filtro6);
     }
 
 
