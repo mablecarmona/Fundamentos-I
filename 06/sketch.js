@@ -386,7 +386,7 @@ function draw() {
         filter(POSTERIZE, filtro4);
     }
 
-    if (miCancioncita.currentTime() > 72 && miCancioncita.currentTime() < 74) {
+    if (miCancioncita.currentTime() > 72 && miCancioncita.currentTime() < 73) {
         push();
         tint(204, 255, 255, 100);
         image(ondas, 50, 0, width - 120, height);
@@ -396,20 +396,19 @@ function draw() {
         pop();
     }
 
-    if (miCancioncita.currentTime() > 74 && miCancioncita.currentTime() < 76) {
+    if (miCancioncita.currentTime() > 73 && miCancioncita.currentTime() < 75) {
         tint(204, 255, 255);
         image(ondas, 50, 0, width - 120, height);
-        filter(POSTERIZE, filtro6);
     }
 
 
 
-    if (miCancioncita.currentTime() > 76 && miCancioncita.currentTime() < 77) {
+    if (miCancioncita.currentTime() > 75 && miCancioncita.currentTime() < 76) {
         image(distorsion2, 50, 0, width - 120, height);
         filter(POSTERIZE, filtro1);
     }
 
-    if (miCancioncita.currentTime() > 77 && miCancioncita.currentTime() < 78) {
+    if (miCancioncita.currentTime() > 76 && miCancioncita.currentTime() < 77) {
         image(distorsion, 50, 0, width - 120, height);
         fill(0, 0, 0, 100);
         rect(50, y, width - 120, 10);
@@ -427,7 +426,7 @@ function draw() {
 
 
 
-    if (miCancioncita.currentTime() > 78) {
+    if (miCancioncita.currentTime() > 77) {
         miCancioncita.stop();
     }
 
